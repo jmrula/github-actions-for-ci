@@ -22,7 +22,6 @@ jobs:
         with:
           name: webpack artifacts
           path: public/
-    needs: build
   test:
     runs-on: ubuntu-latest
     strategy:
